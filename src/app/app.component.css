@@ -1,0 +1,64 @@
+
+h1, h2, h3, h4, h5, h6, p{
+    padding: 0px;
+    margin: 0px;
+}
+
+.main{
+    background: rgb(252,233,241);
+    background: linear-gradient(90deg, rgba(252,233,241,1) 0%, rgba(132,136,140,1) 100%);
+    min-height: 68%;
+    text-align: center;
+    padding: 100px 0 !important;
+}
+
+.container{
+    width: 20%;
+    margin: 0px auto;
+}
+
+.header h1{
+    font-size: 30px;
+    font-weight: 500;
+    padding-bottom: 5px;
+}
+
+.body{
+    padding: 10px 0px;
+}
+
+.icon-canvas{
+    margin: 22px 0px;
+}
+
+.body h1{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.footer h3{
+    font-weight: 500;
+    color: lavenderblush;
+    font-size: 20px;
+}
+
+.mat-progress-spinner {
+    margin: 0px auto;
+}
+
+.mat-divider {
+    display: block;
+    margin: 5px;
+    border-top-width: 2px;
+    border-top-style: solid;
+}
+
+@media only screen and (max-width: 600px) {
+    .main{
+        min-height: 75%;
+    }
+
+    .container{
+        width: 55%;
+    }
+}
