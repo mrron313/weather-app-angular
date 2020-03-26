@@ -4,3 +4,4 @@ As a beginner with Angular, I have developed a weather app which displays temper
 
 Demo: http://arifulislamm.com/tests/temp-dhaka/
 
+![Demo Animation](1.png?raw=true)
